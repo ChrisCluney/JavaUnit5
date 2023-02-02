@@ -28,7 +28,7 @@ public class MissingNumber {
                 }
             }
 
-            //If none is missing
+
             if (nums.length == maxNum && nums[maxNum - 1] == maxNum) {
                 return 0;
             }
